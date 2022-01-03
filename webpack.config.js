@@ -76,7 +76,7 @@ module.exports = async (env, options) => {
         template: "./src/helpers/fallbackauthdialog.html",
         chunks: ["polyfill", "fallbackauthdialog"],
       }),
-      new CopyWebpackPlugin({
+      new CopyWebpackP lugin({
         patterns: [
           {
             from: "assets/*",
